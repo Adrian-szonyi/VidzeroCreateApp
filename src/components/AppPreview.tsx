@@ -2,11 +2,11 @@ import React from 'react';
 
 const AppPreview: React.FC = () => {
   const screenshots = [
-    '/src/assets/Screenshot_20250605-144000.png',
-    '/src/assets/Screenshot_20250605-144008.png',
-    '/src/assets/Screenshot_20250605-144021.png',
-    '/src/assets/Screenshot_20250605-144040.png',
-    '/src/assets/Screenshot_20250605-144114.png'
+    './src/assets/Screenshot_20250605-144000.png',
+    './src/assets/Screenshot_20250605-144008.png',
+    './src/assets/Screenshot_20250605-144021.png',
+    './src/assets/Screenshot_20250605-144040.png',
+    './src/assets/Screenshot_20250605-144114.png'
   ];
 
   return (

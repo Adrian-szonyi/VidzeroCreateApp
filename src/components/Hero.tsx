@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
       </div>
 
       <div className="container mx-auto px-4 md:px-6 relative z-10">
-        <div className="flex flex-col md:flex-row items-center justify-between">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-16">
           <div className="md:w-1/2 text-center md:text-left mb-12 md:mb-0">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
               Empower Charities with <span className="text-yellow-300">User-Generated</span> Content
