@@ -1,12 +1,17 @@
 import React from 'react';
+import screenshot1 from '../assets/Screenshot_20250605-144000.png';
+import screenshot2 from '../assets/Screenshot_20250605-144008.png';
+import screenshot3 from '../assets/Screenshot_20250605-144021.png';
+import screenshot4 from '../assets/Screenshot_20250605-144040.png';
+import screenshot5 from '../assets/Screenshot_20250605-144114.png';
 
 const AppPreview: React.FC = () => {
   const screenshots = [
-    './src/assets/Screenshot_20250605-144000.png',
-    './src/assets/Screenshot_20250605-144008.png',
-    './src/assets/Screenshot_20250605-144021.png',
-    './src/assets/Screenshot_20250605-144040.png',
-    './src/assets/Screenshot_20250605-144114.png'
+    screenshot1,
+    screenshot2,
+    screenshot3,
+    screenshot4,
+    screenshot5
   ];
 
   return (
